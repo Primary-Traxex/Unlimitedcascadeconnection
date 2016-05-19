@@ -1,0 +1,50 @@
+<!DOCTaYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="keywords" content=" keywords" />
+    <meta name="description" content="description" />
+    <!--<link rel="stylesheet" href="../css/bootstrap-select.css">-->
+    <!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
+</head>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/car.js"></script>
+<style type="text/css">
+    body{font-size:13px;color:#696464}
+    table{border-collapse:collapse;}
+    label{position: absolute;z-index: 2; top: 20px;font-weight: bold}
+    tr{border:#B9ADAD solid thin}
+    select{width: 200px; height: 40px; text-align: center;margin-top: 30px;margin-right: 50px}
+    option{width: 100px;text-align: center}
+    h2{margin:0 50px auto; color: #CC3935;}
+    /*td{height: 50px;padding:0}*/
+
+</style>
+<body>
+    <div style="width: 1000px;height: 100px; background-color: #adadad;text-align: center;margin:0 auto">
+        <label for="selectProvince" >省份</label>
+            <select id="selectProvince" >
+                <option >请选择</option>
+            </select>
+        <label for="selectCity" >城市</label>
+            <select id="selectCity">
+                <option>请选择</option>
+            </select>
+        <label for="selectDistrict" >县区</label>
+            <select id="selectDistrict">
+                <option>请选择</option>
+            </select>
+        <input id="search" placeholder="&nbsp;&nbsp;&nbsp;搜索&nbsp;🔍"  type="text" >
+    </div>
+    <div style="width: 1000px;background-color: #256EAF; line-height: 250%;margin:0 auto">
+    <h2 id="whatsel">全国</h2>
+    </div>
+    <div style="height: 285px; width: 1000px; overflow: auto;margin:0 auto">
+    <table id="cont" cellpadding="10" style="height: 400px"></table>
+    </div>
+
+</body>
+
+</html>
