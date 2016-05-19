@@ -1,0 +1,2 @@
+# Unlimitedcascadeconnection
+通过此小程序可以实现无线级联，数据源是excel，所以特别适合不懂html的人进行数据的展示。
