@@ -14,6 +14,7 @@ $(function(){
                 });
                 return a;
             }
+            //添加到以下字段中
             var arrData=[{"dealer":"安徽狮远商贸有限公司","province":"安徽","city":"安庆市","district":"桐城市","address":"桐城市长达汽车贸易服务有限公司桐城市同安南路272号桐城, AH","phone":"15856543467"},
                             {"dealer":"安徽狮远商贸有限公司","province":"安徽","city":"池州市","district":"贵池区","address":"华鑫轿车维修服务中心池州市石台路490号池州, AH","phone":"18956681681"},
                             {"dealer":"安徽狮远商贸有限公司","province":"安徽","city":"铜陵市","district":"郊区","address":"铜陵万泰汽车服务有限公司铜陵市省汽贸南侧铜陵, AH","phone":"0562-2625066"},
